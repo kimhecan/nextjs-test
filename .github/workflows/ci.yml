@@ -112,4 +112,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: 261691190361.dkr.ecr.us-east-1.amazonaws.com/example:${{ github.sha }}
+          tags: 034360777894.dkr.ecr.us-east-1.amazonaws.com/example:${{ github.sha }}
