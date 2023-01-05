@@ -7,7 +7,7 @@ const getAssetPrefix = () => {
   if (!isNamespaceProduction) {
     return '';
   } else {
-    return  `https://next-example.s3.amazonaws.com/${NEXT_PUBLIC_COMMIT_SHA}`;
+    return  `https://next-example.s3.amazonaws.com/next-example/${NEXT_PUBLIC_COMMIT_SHA}`;
   }
 };
 
